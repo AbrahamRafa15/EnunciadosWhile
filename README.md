@@ -35,19 +35,33 @@ El análisis incluye:
 
 ### **2️⃣ Ejecución del programa**
 
-#### **🖱 Opción 1: Usando ventana de selección de archivo**
-```sh
-javac BooleanExpressionParser.java
-java BooleanExpressionParser
-```
-
-- Se abrirá una ventana para seleccionar un archivo `.kt` o `.txt`.
-- El programa lo analizará e imprimirá resultados en la terminal.
+#### **📂 Opción 1: Usando el explorador de archivos**
+1. Descarga y descomprime el archivo fuente `BooleanExpressionParser.java` en una carpeta de tu computadora.
+2. Abre una terminal y navega hasta la carpeta donde está ubicado el archivo.
+3. Compila el programa con:
+   ```sh
+   javac BooleanExpressionParser.java
+   ```
+4. Ejecuta el programa con:
+   ```sh
+   java BooleanExpressionParser
+   ```
+5. Se abrirá una ventana donde podrás **seleccionar un archivo `.kt`**.
+6. El programa analizará el archivo y mostrará **las estadísticas en la terminal**.
 
 ---
 
-#### **💻 Opción 2 (opcional): Línea de comandos**
-Actualmente no implementado, pero puedes modificar fácilmente el método `main` para leer `args[0]`.
+#### **💻 Opción 2 (opcional): Archivo desde la terminal**
+Si prefieres indicar el archivo directamente sin usar el explorador de archivos, puedes hacerlo con:
+
+```sh
+java BooleanExpressionParser ruta/al/archivo.kt
+```
+
+Ejemplo:
+```sh
+java BooleanExpressionParser src/test1.kt
+```
 
 ---
 
