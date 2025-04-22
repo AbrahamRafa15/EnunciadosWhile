@@ -134,4 +134,4 @@ La expresión a parsear es incorrecta.
 ## **📦 Estructura Interna**
 - 🔧 **LexicalAnalyzer:** convierte el texto de entrada en una lista de tokens usando expresiones regulares.
 - 📐 **Parser:** analiza la secuencia de tokens para verificar que los bloques `while` sean válidos.
-- 📊 **Estadísticas:** se muestran únicamente si la validación es exitosa.#Reconocimiento de enunciados while
+- 📊 **Estadísticas:** se muestran únicamente si la validación es exitosa.
