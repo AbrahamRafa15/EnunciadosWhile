@@ -16,7 +16,7 @@ public class BooleanExpressionParser {
     // =========================
     public static void main(String[] args) {
         // 1. Abrimos diálogo de selección de archivo
-        String filePath = openFileDialog();
+        String filePath = args.length > 0 ? args[0] : openFileDialog();
         if (filePath == null) {
             System.out.println("No se seleccionó ningún archivo. Saliendo.");
             return;
